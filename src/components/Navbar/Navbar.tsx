@@ -1,8 +1,11 @@
-
-
+import {AiOutlineMenu} from 'react-icons/ai'
+import "./navbar.css"
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+   <header>
+    <h3>Ian Muchesia</h3>
+    <AiOutlineMenu/>
+   </header>
   )
 }
 
